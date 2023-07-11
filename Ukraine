@@ -1,0 +1,11 @@
+def calculate_pension_recipients(population, pension_percentage):
+    return int(population * pension_percentage / 100)
+
+
+# Example parameters (you can adjust these values according to your needs)
+total_population = 45000000
+pension_percentage = 25  # Assumes 25% of the population receives a pension
+
+# Calculate the number of pension recipients
+pension_recipients = calculate_pension_recipients(total_population, pension_percentage)
+print("The estimated number of pension recipients in Ukraine is:", pension_recipients)
